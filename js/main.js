@@ -27,7 +27,7 @@ document.querySelector('button').addEventListener('click', getPicOfDay)
 
 function getPicOfDay(){
     const date = document.querySelector('input').value
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=0rNQrmanYimNDHnpaI82Lny1Krw04IZXqU87KJLk&date=${date}`)
+    fetch(`API-KEY`)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
             console.log(data)
@@ -52,3 +52,5 @@ function getPicOfDay(){
     });
 }
 
+
+key = 'abcdef'

@@ -1,0 +1,1 @@
+APIKEY = "https://api.nasa.gov/planetary/apod?api_key=0rNQrmanYimNDHnpaI82Lny1Krw04IZXqU87KJLk&date=${date}"
