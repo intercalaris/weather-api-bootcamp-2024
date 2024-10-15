@@ -51,6 +51,3 @@ function getPicOfDay(){
         console.log(`error ${err}`)
     });
 }
-
-
-key = 'abcdef'
